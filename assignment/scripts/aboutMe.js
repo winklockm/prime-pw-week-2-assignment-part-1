@@ -34,7 +34,7 @@ if(adventurous){
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if(luckyNumber == 2 && adventurous){
+if(luckyNumber === 2 && adventurous){
     console.log('Roll the dice!');
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -45,7 +45,7 @@ if(luckyNumber == 2 && adventurous){
 if(pets < allowedPets){
     console.log('I can have more pets!');
 }
-else if(pets == allowedPets){
+else if(pets === allowedPets){
     console.log('I have enough pets');
 }
 else if(pets > allowedPets){
